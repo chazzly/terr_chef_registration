@@ -1,0 +1,6 @@
+# TODO: Look for a way to share code between windows and linux and avoid code duplication
+# TODO: Removal of chef Nodes.
+    Idea:
+    - Tack an Id or randome number to end of node_name to ensure uniqueness when destroying / rebuilding.
+    - Automatically remove terraform nodes that haven't checked in in a while.
+# TODO: Extrapolate location of chef-validator.pem to a variable
